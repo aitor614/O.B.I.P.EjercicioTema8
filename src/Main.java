@@ -1,6 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         Persona persona = new Persona();
+
+        persona.setEdad(25);
+        persona.setNombre("Tetsuo");
+        persona.setTelefonoPersona(555555555);
+
+        System.out.println("PERSONA \n");
+        System.out.println("Tiene: " + persona.getEdad() + " años");
+        System.out.println("Su nombre es: " + persona.getNombre());
+        System.out.println("Su numero de telefono es: " + persona.getTelefonoPersona());
     }
 }
 class Persona {
