@@ -4,5 +4,7 @@ public class Main {
     }
 }
 class Persona {
-
+    private int edad;
+    private String nombre;
+    private int telefonoPersona;
 }
